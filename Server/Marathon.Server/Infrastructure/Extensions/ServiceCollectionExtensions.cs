@@ -5,8 +5,8 @@
     using System.Reflection;
     using System.Text;
     using System.Threading.Tasks;
-    using EasyCaching.Core.Configurations;
 
+    using EasyCaching.Core.Configurations;
     using Marathon.Server.Data;
     using Marathon.Server.Data.Models;
     using Marathon.Server.Features.Cache;

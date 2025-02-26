@@ -290,7 +290,6 @@
             };
         }
 
-
         public async Task SetIssuesOfRemovedFromTeamUserToNull(int projectId, string assigneeId)
         {
             var issues = await this.dbContext.Issues.Where(x => x.ProjectId == projectId && x.AssigneeId == assigneeId).ToListAsync();
